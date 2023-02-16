@@ -10,7 +10,7 @@ Go bindings for Kong's Admin API
 ## Importing
 
 ```shell
-go get github.com/kong/go-kong/kong
+go get github.com/ravizikrillah/go-kong/kong
 ```
 
 ## Compatibility
