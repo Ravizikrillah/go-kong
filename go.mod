@@ -2,6 +2,7 @@ module github.com/ravizikrillah/go-kong
 
 go 1.19
 
+replace github.com/kong/go-kong => github.com/ravizikrillah/go-kong v0.1.0
 replace github.com/imdario/mergo v0.3.12 => github.com/Kong/mergo v0.3.13
 
 require (
