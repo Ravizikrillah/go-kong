@@ -30,3 +30,5 @@ type PEM struct {
 	PublicKey  *string `json:"public_key,omitempty" yaml:"public_key,omitempty"`
 	PrivateKey *string `json:"private_key,omitempty" yaml:"private_key,omitempty"`
 }
+
+// TODO: cannot use this, create new one Hash Key Auth

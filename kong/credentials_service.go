@@ -178,3 +178,6 @@ func (s *credentialService) Delete(ctx context.Context, credType string,
 	_, err = s.client.Do(ctx, req, nil)
 	return err
 }
+
+// TODO
+// AddConsumerToGroup, RemoveConsumerFromGroup, AddConsumerToACLGroup, RemoveConsumerFromACLGroup
